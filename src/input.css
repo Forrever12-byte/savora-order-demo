@@ -5,3 +5,10 @@
   --font-body: "Karla", sans-serif;
   --color-primary: #f97316;
 }
+
+@layer {
+  .active-tab{
+    background-color: var(--color-primary);
+    color: white;
+  }
+}
