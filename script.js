@@ -294,7 +294,7 @@ function openOrderModal() {
                             <div id="order-menu-grid" class="overflow-y-auto"></div>
                             <div id="cart-review-panel" class="hidden flex-1 overflow-y-auto"></div>
                             <div id="cart-review-actions" class="hidden"></div>
-                            <div id="checkout-panel" class="hidden"></div>
+                            <div id="checkout-panel" class="hidden flex-1 overflow-y-auto"></div>
                             <div id="order-cart-footer" class="hidden h-50 text-primary"></div>
                         </div>
                 </div>`;
