@@ -176,19 +176,21 @@ let orderItems = [
 
     {name: "Panla fish", description: "Fried Panla fish", unit: "piece", price: 1500, image: "images/order-items/mains/jollof-and-chicken.jpg", category: "Proteins", orderable: true},
 
-    {name: "Chicken", description: "Spicy grilled chicken", unit: "piece", image: "images/order-items/mains/chicken.jpg", category: "Proteins",
-    variations: [
-        { label: "Small", price: 1200},
-        { label: "Medium", price: 1500},
-        { label: "Large", price: 2000}
-    ],
-    orderable: true},
+    { name: "Chicken (Small)", description: "Spicy grilled chicken", unit: "piece", price: 1200, image: "images/order-items/mains/jollof-and-chicken.jpg", category: "Proteins", orderable: true },
 
-    {name: "Smoothie (Mixed Fruit)", description: "Blended seasonal fruit smoothie", unit: "35CL", price: 2500, image: "images/order-items/drinks/smoothies.jpg", category: "Drinks",
-    options: [
-        {label: "Flavour", choices: ["Strawberry-Banana", "Mixed Berry", "Spinach-Banana-Kiwi", "Peach", "Peanut Butter Banana"]},
-    ],
-    orderable: true},
+    { name: "Chicken (Medium)", description: "Spicy grilled chicken", unit: "piece", price: 1500, image: "images/order-items/mains/jollof-and-chicken.jpg", category: "Proteins", orderable: true },
+
+    { name: "Chicken (Large)", description: "Spicy grilled chicken", unit: "piece", price: 2000, image: "images/order-items/mains/jollof-and-chicken.jpg", category: "Proteins", orderable: true },
+
+    { name: "Smoothie (Strawberry-Banana)", description: "Blended seasonal fruit smoothie", unit: "35CL", price: 2500, image: "images/order-items/drinks/smoothies.jpg", category: "Drinks", orderable: true },
+
+    { name: "Smoothie (Mixed Berry)", description: "Blended seasonal fruit smoothie", unit: "35CL", price: 2500, image: "images/order-items/drinks/smoothies.jpg", category: "Drinks", orderable: true },
+
+    { name: "Smoothie (Spinach-Banana-Kiwi)", description: "Blended seasonal fruit smoothie", unit: "35CL", price: 2500, image: "images/order-items/drinks/smoothies.jpg", category: "Drinks", orderable: true },
+
+    { name: "Smoothie (Peach)", description: "Blended seasonal fruit smoothie", unit: "35CL", price: 2500, image: "images/order-items/drinks/smoothies.jpg", category: "Drinks", orderable: true },
+
+    { name: "Smoothie (Peanut Butter Banana)", description: "Blended seasonal fruit smoothie", unit: "35CL", price: 2500, image: "images/order-items/drinks/smoothies.jpg", category: "Drinks", orderable: true },
 
     {name: "Peppered Snails", description: "Tender snails tossed in a spicy pepper sauce", unit: "plate", price: 3500, image: "images/order-items/starters/peppered-snail.jpg", category: "Starters", orderable: true},
 
@@ -212,10 +214,13 @@ let orderItems = [
 
     {name: "Beef", description: "Tender beef",unit: "piece", price: 2000, image: "images/order-items/mains/fried-rice-beef.jpg", category: "Proteins", orderable: true},
 
-    {name: "Swallow & Soup", description: "Choose your swallow and soup combination",unit: "wrap", price: 500, image: "images/order-items/mains/pounded-yam-egusi.jpg", category: "Mains",
-    swallowOptions: ["Eba", "Pounded Yam", "Amala", "Semo"],
-    soupOptions: ["Egusi", "Ogbono", "Afang", "Efo Riro"], 
-    orderable: true},
+    { name: "Eba (with soup)", description: "Specify soup: Egusi, Ogbono, Afang, or Efo Riro", unit: "wrap", price: 500, image: "images/order-items/mains/pounded-yam-egusi.jpg", category: "Mains", orderable: true },
+
+    { name: "Pounded Yam (with soup)", description: "Specify soup: Egusi, Ogbono, Afang, or Efo Riro", unit: "wrap", price: 500, image: "images/order-items/mains/pounded-yam-egusi.jpg", category: "Mains", orderable: true },
+
+    { name: "Amala (with soup)", description: "Specify soup: Egusi, Ogbono, Afang, or Efo Riro", unit: "wrap", price: 500, image: "images/order-items/mains/pounded-yam-egusi.jpg", category: "Mains", orderable: true },
+
+    { name: "Semo (with soup)", description: "Specify soup: Egusi, Ogbono, Afang, or Efo Riro", unit: "wrap", price: 500, image: "images/order-items/mains/pounded-yam-egusi.jpg", category: "Mains", orderable: true },
 
     {name: "Grilled Tilapia & Plantain", description: "Whole grilled fish served with fried plantain",unit: "portion", price: 5500, image: "images/order-items/mains/grilled-tilapia-plantain.jpg", category: "Mains", orderable: true},
 
@@ -235,11 +240,13 @@ let orderItems = [
 
     {name: "Chilled Palm Wine", description: "Traditional fresh palm wine, served cold",unit: "bottle", price: 2200, image: "images/order-items/drinks/palm-wine.jpeg", category: "Drinks", orderable: true},
 
-    {name: "Soft Drink (Coke/Fanta/Sprite)", description: "Chilled bottled soft drink",unit: "bottle", price: 1000, image: "images/order-items/drinks/soft-drink.jpg", category: "Drinks",
-    options: [
-        {label: "Variations", choices: ["Pepsi", "Coca-cola", "Fanta", "Sprite"]}
-    ]
-    ,orderable: true},
+    { name: "Soft Drink (Pepsi)", description: "Chilled bottled soft drink", unit: "bottle", price: 1000, image: "images/order-items/drinks/soft-drink.jpg", category: "Drinks", orderable: true },
+
+    { name: "Soft Drink (Coca-Cola)", description: "Chilled bottled soft drink", unit: "bottle", price: 1000, image: "images/order-items/drinks/soft-drink.jpg", category: "Drinks", orderable: true },
+
+    { name: "Soft Drink (Fanta)", description: "Chilled bottled soft drink", unit: "bottle", price: 1000, image: "images/order-items/drinks/soft-drink.jpg", category: "Drinks", orderable: true },
+
+    { name: "Soft Drink (Sprite)", description: "Chilled bottled soft drink", unit: "bottle", price: 1000, image: "images/order-items/drinks/soft-drink.jpg", category: "Drinks", orderable: true },
 
     {name: "Iced Tea", description: "Refreshing chilled tea with lemon",unit: "bottle", price: 1800, image: "images/order-items/drinks/ice-tea.jpg", category: "Drinks", orderable: true},
 
@@ -287,8 +294,9 @@ function openOrderModal() {
                                         </svg>
                                     </button>
                                 </div>
-                                <div id="tabs-wrapper" class="border-y-1 border-primary border-x-2 flex items-center justify-between overflow-x-auto [scrollbar-width:none] [&::-webkit-scrollbar]:hidden w-full rounded-md mb-5">
+                                <div id="tabs-wrapper" class="relative border-y-1 border-primary border-x-2 flex items-center justify-between overflow-x-auto [scrollbar-width:none] [&::-webkit-scrollbar]:hidden w-full rounded-md mb-5">
                                     ${tabsHtml}
+                                    <div class="absolute right-0 top-0 h-full w-8 bg-gradient-to-l from-white to-transparent pointer-events-none"></div>
                                 </div>
                             </div>
                             <div id="order-menu-grid" class="overflow-y-auto"></div>
@@ -331,6 +339,19 @@ function openOrderModal() {
     };
 
     document.getElementById('close-order-modal').addEventListener('click', closeOrderModal);
+
+    const tabsWrapper = document.getElementById('tabs-wrapper');
+    const scrollFade = tabsWrapper.querySelector('.absolute');
+
+    tabsWrapper.addEventListener('scroll', function() {
+        const isAtEnd = tabsWrapper.scrollLeft + tabsWrapper.clientWidth >= tabsWrapper.scrollWidth - 1;
+
+        if (isAtEnd) {
+            scrollFade.classList.add('hidden');
+        } else {
+            scrollFade.classList.remove('hidden');
+        }
+    });
 };
 
 // openOrderModal();
@@ -344,37 +365,38 @@ function renderOrderMenu() {
     let menuHtml = "";
 
     for(let c = 0; c < categories.length; c++) {
-    const category = categories[c];
-    const categoryItems = orderItems.filter(item => item.category === category);
+        const category = categories[c];
+        const categoryItems = orderItems.filter(item => item.category === category);
 
-    menuHtml += `<div data-category-panel="${category}" class="${c === 0 ? '' : 'hidden'}">`;
+        menuHtml += `<div data-category-panel="${category}" class="${c === 0 ? '' : 'hidden'}">`;
 
-    for (let i = 0; i < categoryItems.length; i++) {
-        const item = categoryItems[i];
-    menuHtml += `
-                <div class="bg-white mb-3 shadow-lg rounded-lg h-35 relative">
-                    <div class="flex  gap-2 h-full">
-                        <div class="max-w-1/3 h-full">
-                            <img src="${item.image}" alt="${item.name}" class="max-w-full h-full object-cover rounded-l-lg">
-                        </div>
+        for (let i = 0; i < categoryItems.length; i++) {
+            const item = categoryItems[i];
 
-                        <div class="flex flex-col h-2/3">
-                            <h4 class="text-primary font-bold leading-none mt-1 mb-1">${item.name}</h4>
-                            <p class="leading-none">${item.description}</p>
-                            <span class="mt-2"><span class="text-primary">₦${item.price}</span>/${item.unit}</span>
+                menuHtml += `
+                    <div class="bg-white mb-3 shadow-lg rounded-lg h-35 relative">
+                        <div class="flex  gap-2 h-full">
+                            <div class="max-w-1/3 h-full">
+                                <img src="${item.image}" alt="${item.name}" class="max-w-full h-full object-cover rounded-l-lg">
+                            </div>
 
-                            <div class="absolute bottom-2 right-5 flex items-center gap-3">
-                                <span class="text-primary">Quantity : </span>
-                                <button class="decrease-btn text-2xl text-primary border px-2 rounded-md w-8 h-8 active:bg-primary active:text-white cursor-pointer" data-name="${item.name}">-</button>
-                                <span class="quantity text-lg text-primary" data-name="${item.name}">0</span>
-                                <button class="increase-btn text-lg text-primary border px-2 rounded-md w-8 h-8 active:bg-primary active:text-white cursor-pointer" data-name="${item.name}">+</button>
+                            <div class="flex flex-col h-2/3">
+                                <h4 class="text-primary font-bold leading-none mt-1 mb-1">${item.name}</h4>
+                                <p class="leading-none">${item.description}</p>
+                                <span class="mt-2"><span class="text-primary">₦${item.price}</span>/${item.unit}</span>
+
+                                <div class="absolute bottom-2 right-5 flex items-center gap-3">
+                                    <span class="text-primary">Quantity : </span>
+                                    <button class="decrease-btn text-2xl text-primary border px-2 rounded-md w-8 h-8 active:bg-primary active:text-white cursor-pointer" data-name="${item.name}">-</button>
+                                    <span class="quantity text-lg text-primary" data-name="${item.name}">0</span>
+                                    <button class="increase-btn text-lg text-primary border px-2 rounded-md w-8 h-8 active:bg-primary active:text-white cursor-pointer" data-name="${item.name}">+</button>
+                                </div>
                             </div>
                         </div>
                     </div>
-                </div>
-                `;
-    };
-    menuHtml += `</div>`;
+                    `;
+        };
+        menuHtml += `</div>`;
     };
 
     orderMenuGrid.innerHTML = menuHtml;
@@ -496,7 +518,7 @@ function updateCartFooter() {
                     </div>
 
                     <div class="flex flex-col gap-3 mt-4 w-full">
-                        <button id="view-cart-btn" class="bg-primary text-white font-bold py-3 rounded-lg" cursor-pointer>View Cart</button>
+                        <button id="view-cart-btn" class="bg-primary text-white font-bold py-3 rounded-lg cursor-pointer">View Cart</button>
                     </div>
                     `;
 
@@ -599,27 +621,29 @@ function renderCheckoutForm() {
     let checkoutHtml = "";
 
     checkoutHtml += `
-                    <h2 class="text-primary font-bold text-xl text-center mb-4">Order Form</h2>
-                    <div class="flex text-primary justify-between mb-2">
-                        <div id="back-to-cart">Back</div>
-                        <div>Order Total: ₦${totalPrice}</div>
-                    </div>
+                    <div class="min-h-100">
+                        <h2 class="text-primary font-bold text-xl text-center mb-4">Order Form</h2>
+                        <div class="flex text-primary justify-between mb-2">
+                            <div id="back-to-cart" class="cursor-pointer">Back</div>
+                            <div>Order Total: ₦${totalPrice}</div>
+                        </div>
 
-                     <div class="flex flex-col">
-                        <label class="text-primary font-bold text-lg">Name:</label>
-                        <input required id="checkout-name" type="text" placeholder="Enter your name here" class="p-2 border border-primary mb-3 text-primary focus:outline focus focus:outline-primary rounded-lg">
+                        <div class="flex flex-col">
+                            <label class="text-primary font-bold text-lg">Name:</label>
+                            <input required id="checkout-name" type="text" placeholder="Enter your name here" class="p-2 border border-primary mb-3 text-primary focus:outline focus focus:outline-primary rounded-lg">
 
-                        <label class="text-primary font-bold text-lg">Phone:</label>
-                        <input required id="checkout-phone" type="tel" placeholder="Enter your phone number here" class="p-2 border border-primary mb-3 text-primary focus:outline focus focus:outline-primary rounded-lg">
+                            <label class="text-primary font-bold text-lg">Phone:</label>
+                            <input required id="checkout-phone" type="tel" placeholder="Enter your phone number here" class="p-2 border border-primary mb-3 text-primary focus:outline focus focus:outline-primary rounded-lg">
 
-                        <label class="text-primary font-bold text-lg">Address:</label>
-                        <input required id="checkout-address" type="text" placeholder="Enter your address here" class="p-2 border border-primary mb-3 text-primary focus:outline focus focus:outline-primary rounded-lg">
+                            <label class="text-primary font-bold text-lg">Address:</label>
+                            <input required id="checkout-address" type="text" placeholder="Enter your address here" class="p-2 border border-primary mb-3 text-primary focus:outline focus focus:outline-primary rounded-lg">
 
-                        <label class="text-primary font-bold text-lg">Additional Notes(Optional):</label>
-                        <textarea id="checkout-notes" placeholder="Enter any additional instructions for us" class="p-2 border border-primary mb-3 text-primary focus:outline focus focus:outline-primary rounded-lg h-40"></textarea>
+                            <label class="text-primary font-bold text-lg">Additional Notes(Optional):</label>
+                            <textarea id="checkout-notes" placeholder="Did you pick Swallow? Specify the soup you want" class="p-2 border border-primary mb-3 text-primary focus:outline focus focus:outline-primary rounded-lg h-40"></textarea>
 
-                        <button id="send-order" class="text-white bg-primary font-bold py-3 rounded-lg cursor-pointer">Send order to Whatsapp</button>
-                     </div>
+                            <button id="send-order" class="text-white bg-primary font-bold py-3 rounded-lg cursor-pointer">Send order to Whatsapp</button>
+                        </div>
+                    </div>    
                     `
 
     checkoutPanel.innerHTML = checkoutHtml;
