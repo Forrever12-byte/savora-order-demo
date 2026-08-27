@@ -166,31 +166,31 @@ let cart = [];
 const categories = ["Mains", "Proteins", "Starters", "Desserts", "Drinks"];
 
 let orderItems = [
-    {name: "Jollof Rice", description: "Classic smoky jollof rice", unit: "portion", price: 1000, image: "images/order-items/mains/jollof-and-chicken.jpg", category: "Mains", orderable: true},
+    {name: "Jollof Rice", description: "Classic smoky jollof rice", unit: "portion", price: 1000, image: "images/order-items/mains/jollof-rice.jpg", category: "Mains", orderable: true},
 
-    {name: "Boiled Egg", description: "Perfectly boiled egg", unit: "piece", price: 400, image: "images/order-items/mains/jollof-and-chicken.jpg", category: "Proteins", orderable: true},
+    {name: "Boiled Egg", description: "Perfectly boiled egg", unit: "piece", price: 400, image: "images/order-items/proteins/boiled-egg.jpg", category: "Proteins", orderable: true},
 
-    {name: "Fried fish", description: "Crispy fried fish", unit: "piece", price: 1500, image: "images/order-items/mains/jollof-and-chicken.jpg", category: "Proteins", orderable: true},
+    {name: "Fried fish", description: "Crispy fried fish", unit: "piece", price: 1500, image: "images/order-items/proteins/fried fish.jpg", category: "Proteins", orderable: true},
 
-    {name: "Fresh fish", description: "Tasty fresh fish", unit: "piece", price: 2500, image: "images/order-items/mains/jollof-and-chicken.jpg", category: "Proteins", orderable: true},
+    {name: "Fresh fish", description: "Tasty fresh fish", unit: "piece", price: 2500, image: "images/order-items/proteins/fresh fish.jpg", category: "Proteins", orderable: true},
 
-    {name: "Panla fish", description: "Fried Panla fish", unit: "piece", price: 1500, image: "images/order-items/mains/jollof-and-chicken.jpg", category: "Proteins", orderable: true},
+    {name: "Panla fish", description: "Fried Panla fish", unit: "piece", price: 1500, image: "images/order-items/proteins/panla.jpg", category: "Proteins", orderable: true},
 
-    { name: "Chicken (Small)", description: "Spicy grilled chicken", unit: "piece", price: 1200, image: "images/order-items/mains/jollof-and-chicken.jpg", category: "Proteins", orderable: true },
+    { name: "Chicken (Small)", description: "Spicy grilled chicken", unit: "piece", price: 1200, image: "images/order-items/proteins/chicken-small.webp", category: "Proteins", orderable: true },
 
-    { name: "Chicken (Medium)", description: "Spicy grilled chicken", unit: "piece", price: 1500, image: "images/order-items/mains/jollof-and-chicken.jpg", category: "Proteins", orderable: true },
+    { name: "Chicken (Medium)", description: "Spicy grilled chicken", unit: "piece", price: 1500, image: "images/order-items/proteins/chicken-medium.jpg", category: "Proteins", orderable: true },
 
-    { name: "Chicken (Large)", description: "Spicy grilled chicken", unit: "piece", price: 2000, image: "images/order-items/mains/jollof-and-chicken.jpg", category: "Proteins", orderable: true },
+    { name: "Chicken (Large)", description: "Spicy grilled chicken", unit: "piece", price: 2000, image: "images/order-items/proteins/chicken-large.jpg", category: "Proteins", orderable: true },
 
-    { name: "Smoothie (Strawberry-Banana)", description: "Blended seasonal fruit smoothie", unit: "35CL", price: 2500, image: "images/order-items/drinks/smoothies.jpg", category: "Drinks", orderable: true },
+    { name: "Smoothie (Strawberry-Banana)", description: "Blended seasonal fruit smoothie", unit: "35CL", price: 2500, image: "images/order-items/drinks/Smoothie (Strawberry-Banana).webp", category: "Drinks", orderable: true },
 
-    { name: "Smoothie (Mixed Berry)", description: "Blended seasonal fruit smoothie", unit: "35CL", price: 2500, image: "images/order-items/drinks/smoothies.jpg", category: "Drinks", orderable: true },
+    { name: "Smoothie (Mixed Berry)", description: "Blended seasonal fruit smoothie", unit: "35CL", price: 2500, image: "images/order-items/drinks/Smoothie (Mixed Berry).jpg", category: "Drinks", orderable: true },
 
-    { name: "Smoothie (Spinach-Banana-Kiwi)", description: "Blended seasonal fruit smoothie", unit: "35CL", price: 2500, image: "images/order-items/drinks/smoothies.jpg", category: "Drinks", orderable: true },
+    { name: "Smoothie (Spinach-Banana-Kiwi)", description: "Blended seasonal fruit smoothie", unit: "35CL", price: 2500, image: "images/order-items/drinks/Smoothie (Spinach-Banana-Kiwi).jpg", category: "Drinks", orderable: true },
 
-    { name: "Smoothie (Peach)", description: "Blended seasonal fruit smoothie", unit: "35CL", price: 2500, image: "images/order-items/drinks/smoothies.jpg", category: "Drinks", orderable: true },
+    { name: "Smoothie (Peach)", description: "Blended seasonal fruit smoothie", unit: "35CL", price: 2500, image: "images/order-items/drinks/Smoothie (Peach).webp", category: "Drinks", orderable: true },
 
-    { name: "Smoothie (Peanut Butter Banana)", description: "Blended seasonal fruit smoothie", unit: "35CL", price: 2500, image: "images/order-items/drinks/smoothies.jpg", category: "Drinks", orderable: true },
+    { name: "Smoothie (Peanut Butter Banana)", description: "Blended seasonal fruit smoothie", unit: "35CL", price: 2500, image: "images/order-items/drinks/Smoothie (Peanut Butter Banana).jpg", category: "Drinks", orderable: true },
 
     {name: "Peppered Snails", description: "Tender snails tossed in a spicy pepper sauce", unit: "plate", price: 3500, image: "images/order-items/starters/peppered-snail.jpg", category: "Starters", orderable: true},
 
@@ -214,19 +214,19 @@ let orderItems = [
 
     {name: "Beef", description: "Tender beef",unit: "piece", price: 2000, image: "images/order-items/mains/fried-rice-beef.jpg", category: "Proteins", orderable: true},
 
-    { name: "Eba (with soup)", description: "Specify soup: Egusi, Ogbono, Afang, or Efo Riro", unit: "wrap", price: 500, image: "images/order-items/mains/pounded-yam-egusi.jpg", category: "Mains", orderable: true },
+    { name: "Eba (with soup)", description: "Specify soup: Egusi, Ogbono, Afang, or Efo Riro", unit: "wrap", price: 500, image: "images/order-items/mains/eba.jpg", category: "Mains", orderable: true },
 
     { name: "Pounded Yam (with soup)", description: "Specify soup: Egusi, Ogbono, Afang, or Efo Riro", unit: "wrap", price: 500, image: "images/order-items/mains/pounded-yam-egusi.jpg", category: "Mains", orderable: true },
 
-    { name: "Amala (with soup)", description: "Specify soup: Egusi, Ogbono, Afang, or Efo Riro", unit: "wrap", price: 500, image: "images/order-items/mains/pounded-yam-egusi.jpg", category: "Mains", orderable: true },
+    { name: "Amala (with soup)", description: "Specify soup: Egusi, Ogbono, Afang, or Efo Riro", unit: "wrap", price: 500, image: "images/order-items/mains/amala.jpg", category: "Mains", orderable: true },
 
-    { name: "Semo (with soup)", description: "Specify soup: Egusi, Ogbono, Afang, or Efo Riro", unit: "wrap", price: 500, image: "images/order-items/mains/pounded-yam-egusi.jpg", category: "Mains", orderable: true },
+    { name: "Semo (with soup)", description: "Specify soup: Egusi, Ogbono, Afang, or Efo Riro", unit: "wrap", price: 500, image: "images/order-items/mains/Efo Riro & Semo.jpg", category: "Mains", orderable: true },
 
     {name: "Grilled Tilapia & Plantain", description: "Whole grilled fish served with fried plantain",unit: "portion", price: 5500, image: "images/order-items/mains/grilled-tilapia-plantain.jpg", category: "Mains", orderable: true},
 
     {name: "Ofada Rice & Ayamase Sauce", description: "Local rice with spicy green pepper stew",unit: "portion", price: 4800, image: "images/order-items/mains/ofada-ayamase.jpg", category: "Mains", orderable: true},
 
-    {name: "Beef Suya Platter", description: "Grilled beef suya with onions, cabbage, and sauce",unit: "portion", price: 5200, image: "images/order-items/mains/pounded-yam-egusi.jpg", category: "Mains", orderable: true},
+    {name: "Beef Suya Platter", description: "Grilled beef suya with onions, cabbage, and sauce",unit: "portion", price: 5200, image: "images/order-items/mains/beef-suya-platter.jpg", category: "Mains", orderable: true},
 
     {name: "Chicken Alfredo Pasta", description: "Creamy pasta with grilled chicken strips",unit: "portion", price: 5000, image: "images/order-items/mains/alfredo-pasta.jpg", category: "Mains", orderable: true},
 
@@ -240,13 +240,13 @@ let orderItems = [
 
     {name: "Chilled Palm Wine", description: "Traditional fresh palm wine, served cold",unit: "bottle", price: 2200, image: "images/order-items/drinks/palm-wine.jpeg", category: "Drinks", orderable: true},
 
-    { name: "Soft Drink (Pepsi)", description: "Chilled bottled soft drink", unit: "bottle", price: 1000, image: "images/order-items/drinks/soft-drink.jpg", category: "Drinks", orderable: true },
+    { name: "Soft Drink (Pepsi)", description: "Chilled bottled soft drink", unit: "bottle", price: 1000, image: "images/order-items/drinks/Soft Drink (Pepsi).webp", category: "Drinks", orderable: true },
 
-    { name: "Soft Drink (Coca-Cola)", description: "Chilled bottled soft drink", unit: "bottle", price: 1000, image: "images/order-items/drinks/soft-drink.jpg", category: "Drinks", orderable: true },
+    { name: "Soft Drink (Coca-Cola)", description: "Chilled bottled soft drink", unit: "bottle", price: 1000, image: "images/order-items/drinks/Soft Drink (Coca-Cola).jpg", category: "Drinks", orderable: true },
 
-    { name: "Soft Drink (Fanta)", description: "Chilled bottled soft drink", unit: "bottle", price: 1000, image: "images/order-items/drinks/soft-drink.jpg", category: "Drinks", orderable: true },
+    { name: "Soft Drink (Fanta)", description: "Chilled bottled soft drink", unit: "bottle", price: 1000, image: "images/order-items/drinks/Soft Drink (Fanta).webp", category: "Drinks", orderable: true },
 
-    { name: "Soft Drink (Sprite)", description: "Chilled bottled soft drink", unit: "bottle", price: 1000, image: "images/order-items/drinks/soft-drink.jpg", category: "Drinks", orderable: true },
+    { name: "Soft Drink (Sprite)", description: "Chilled bottled soft drink", unit: "bottle", price: 1000, image: "images/order-items/drinks/Soft Drink (Sprite).jpg", category: "Drinks", orderable: true },
 
     {name: "Iced Tea", description: "Refreshing chilled tea with lemon",unit: "bottle", price: 1800, image: "images/order-items/drinks/ice-tea.jpg", category: "Drinks", orderable: true},
 
