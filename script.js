@@ -669,27 +669,27 @@ function renderCheckoutForm() {
         let cartSummaryHtml = "";
         let orderMessage = `
                             🛒 NEW ORDER\n\n
-                            👤 Customer: ${customerName}\n
-                            📞 Phone: ${customerPhone}\n
-                            📍 Location: ${customerAddress}\n
-                            ITEMS:\n
+            👤 Customer: ${customerName}\n
+            📞 Phone: ${customerPhone}\n
+            📍 Location: ${customerAddress}\n
+                ITEMS:\n
                             `;
 
         for(let i = 0; i < cart.length; i++) {
             const item = cart[i];
 
             cartSummaryHtml += `
-                                ${item.name}/${item.unit}\n
-                                Quantity: ${item.quantity}\n
-                                Unit Price: ${item.unitPrice}\n
-                                Cost: ₦${item.total}\n
+                ${item.name}/${item.unit}\n
+                Quantity: ${item.quantity}\n
+                Unit Price: ${item.unitPrice}\n
+                Cost: ₦${item.total}\n
                                 `
         };
 
         orderMessage += cartSummaryHtml;
         orderMessage += `
-                            TOTAL: ₦${totalPrice}\n
-                            Notes: ${customerNotes === "" ? "None" : customerNotes}
+                TOTAL: ₦${totalPrice}\n
+                Notes: ${customerNotes === "" ? "None" : customerNotes}
                         `
         
         const encodedMessage = encodeURIComponent(orderMessage);
