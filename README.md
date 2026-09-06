@@ -2,7 +2,7 @@
 
 A modern, responsive landing page template built for Nigerian restaurants and food businesses. Designed and developed by **Forr3ver Dev**.
 
-**🔗 Live Demo:** [forrever12-byte.github.io/restaurant-landing-page-template](https://forrever12-byte.github.io/restaurant-landing-page-template/)
+**🔗 Live Demo:** (https://forrever12-byte.github.io/savora-order-demo/)
 
 
 ---
