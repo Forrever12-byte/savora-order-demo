@@ -117,12 +117,12 @@ for (let i = 0; i < categoryButtons.length; i++) {
             return dish.category === selectedCategory;
         });
         renderMenu(filteredItems);
+        document.getElementById('menu').scrollIntoView({ behavior: 'smooth', block: 'start' });
 
         }
         
     });
-}
-
+};
 renderMenu(menuItems);
 categoryButtons[0].classList.add('bg-primary', 'text-white');
 
