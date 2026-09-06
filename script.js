@@ -374,19 +374,19 @@ function renderOrderMenu() {
             const item = categoryItems[i];
 
                 menuHtml += `
-                    <div class="bg-white mb-3 shadow-lg rounded-lg h-35 relative">
-                        <div class="flex  gap-2 h-full">
-                            <div class="max-w-1/3 h-full">
+                    <div class="bg-white mb-3 shadow-lg rounded-lg h-auto">
+                        <div class="flex gap-2 h-full">
+                            <div class="max-w-1/3 h-35 shrink-0">
                                 <img src="${item.image}" alt="${item.name}" class="max-w-full h-full object-cover rounded-l-lg">
                             </div>
 
-                            <div class="flex flex-col h-2/3">
+                            <div class="flex flex-1 flex-col p-2" style="min-width: 0;">
                                 <h4 class="text-primary font-bold leading-none mt-1 mb-1">${item.name}</h4>
                                 <p class="leading-none">${item.description}</p>
                                 <span class="mt-2"><span class="text-primary">₦${item.price}</span>/${item.unit}</span>
 
-                                <div class="absolute bottom-2 right-5 flex items-center gap-3">
-                                    <span class="text-primary">Quantity : </span>
+                                <div class="flex items-center justify-end gap-1 mt-2">
+                                    <span class="text-primary text-sm whitespace-nowrap">Quantity: </span>
                                     <button class="decrease-btn text-2xl text-primary border px-2 rounded-md w-8 h-8 active:bg-primary active:text-white cursor-pointer" data-name="${item.name}">-</button>
                                     <span class="quantity text-lg text-primary" data-name="${item.name}">0</span>
                                     <button class="increase-btn text-lg text-primary border px-2 rounded-md w-8 h-8 active:bg-primary active:text-white cursor-pointer" data-name="${item.name}">+</button>
